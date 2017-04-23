@@ -1,0 +1,40 @@
+.block{
+    display: none;
+}
+
+
+body { 
+    font-family: sans-serif;
+    background: #121314; 
+    padding: 100px; 
+}
+
+.sl {
+    display: block; 
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    line-height: 60px;
+    color: #dddedf;
+}
+
+span { 
+    margin: 10px;
+    opacity: 0;
+    filter: blur(20px); 
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.sl.active span {
+    opacity: 1;
+    filter: blur(0px);
+    transition: 1s; 
+}
+
+.active { 
+    z-index: 10;
+}
