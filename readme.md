@@ -12,3 +12,4 @@ body
 <div id="box">
 </div>
 <script src="js/script.js"></script>
+"# kursovoy_js_ver_2" 
